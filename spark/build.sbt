@@ -1,0 +1,9 @@
+name := "clickhouse_importer"
+version := "1.0"
+scalaVersion := "2.11.8"
+libraryDependencies += "org.apache.spark" %% "spark-core" % "2.3.0" % "provided"
+libraryDependencies += "org.apache.spark" %% "spark-sql" % "2.3.0" % "provided"
+libraryDependencies += "ru.yandex.clickhouse" % "clickhouse-jdbc" % "0.1.39" 
+libraryDependencies += "com.google.guava" % "guava" % "19.0"
+javacOptions ++= Seq("-encoding", "UTF-8")
+scalacOptions := Seq("-target:jvm-1.7")
