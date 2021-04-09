@@ -1,0 +1,2 @@
+# clickhouse_importer_with_spark
+使用spark将hive表或者hdfs文件数据导入到clickhouse
